@@ -155,6 +155,14 @@ body {
     color: white;
 }
 
+.card {
+    border: 0px;
+}
+
+.resume-grid-main.row.col-md-12 {
+    margin: 0px;
+}
+
 
 @media (max-width: 767px) { 
     .resume-right-grid.col-md-8 {
