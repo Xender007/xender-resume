@@ -107,7 +107,7 @@ body {
     background-color: #009688!important;
     margin-top: 16px !important;
     text-align: center!important;
-    padding: 0.01em 16px;
+    padding: 16px 10px 16px 10px;
 }
 
 .footer-text {
@@ -163,6 +163,11 @@ body {
     margin: 0px;
 }
 
+.card-title {
+    font-size: 1.7rem;
+    text-align: center;
+}
+
 
 @media (max-width: 767px) { 
     .resume-right-grid.col-md-8 {
@@ -170,4 +175,53 @@ body {
         padding-left: 0;
         margin-top: 15px;
     }
- }
+}
+
+
+
+
+
+/****************************************************/
+/*****Button for new poftfolio Remove later or use it download CV button*****/
+/****************************************************/
+
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
